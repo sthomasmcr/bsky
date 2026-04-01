@@ -221,8 +221,7 @@ function Post({
         )}
         <a
           className="Post__author-name"
-          href={`${WEB_APP}/profile/${profile ? profile.profile.handle : atUri.hostname
-            }`}
+          href={`${WEB_APP}/profile/${atUri.hostname}`}
           data-tooltip-id="profile"
           data-tooltip-html={profileHtml}
         >
