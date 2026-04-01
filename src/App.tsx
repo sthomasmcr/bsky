@@ -144,6 +144,20 @@ function App() {
   return (
     <Filter.Provider value={filterState}>
       <header className="App__header">
+         <p className="App__credits">
+          <a href="https://github.com/bskyviewer/bskyviewer.github.io">
+            source code
+          </a>
+          {' • '}
+          based on{' '}
+          <a href="https://handlerug.github.io/bluesky-liked-posts/">
+            bluesky-liked-posts
+          </a>{' '}
+          by{' '}
+          <a href={`${WEB_APP}/profile/did:plc:uowmeg4dqtanpmjuknadqjqc`}>
+            @handlerug.bsky.social
+          </a>
+        </p>
       </header>
 
       <main>
